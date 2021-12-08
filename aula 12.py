@@ -5,7 +5,7 @@ if nome == 'Gustavo':
 elif nome == 'Pedro' or 'Maria' or nome == 'Paulo':
     print('Seu nome é bem popular no Brasil.')
 
-elif nome in 'Joackin Debiloide Saracura':
+elif nome in 'Joackin Debi Saracura':
     print('Seu nome é muito feio')
 
 else:
