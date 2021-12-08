@@ -13,8 +13,11 @@ genero = int(input(''' Qual é o seu gênero? :
 1 - Masculino
 2 - Feminino : '''))
 
-if genero == 1:
-    ano = int(input('Em que ano você nasceu?: '))
+if genero == 2:
+    print('Seu alistamento militar não é obrigatório.')
+
+else:
+    ano = int(input('Em que ano você nasceu? : '))
 
 idade = ano_atual - ano
 
@@ -26,3 +29,4 @@ elif idade < 18:
 
 else:
     print('Você deveria ter se alistado faz {} ano(s) '.format(idade - 18))
+
