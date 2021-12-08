@@ -19,6 +19,3 @@ elif media >= 5 and media <= 6.9:
 
 elif media >= 7.0:
     print('APROVADO')
-
-else:
-    print('Valores incorretos')
