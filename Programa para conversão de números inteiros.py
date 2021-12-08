@@ -8,8 +8,7 @@ pergunta2 = int(input(''' Qual conversão deseja fazer? :
 
 1 - Binário.
 2 - Octal.
-3 - Hexadecimal
- '''))
+3 - Hexadecimal: '''))
 
 if pergunta2 == 1:
     print ('Binário: {}'.format(bin(numero)[2:]))
