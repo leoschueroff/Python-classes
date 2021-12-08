@@ -11,7 +11,7 @@ from datetime import date
 ano_atual = date.today().year
 genero = int(input(''' Qual é o seu gênero? : 
 1 - Masculino
-2 - Feminino : '''))
+2 - Feminino : '''))                        #Decidi acrescentar essa parte no exercício.
 
 if genero == 2:
     print('Seu alistamento militar não é obrigatório.')
