@@ -26,7 +26,7 @@ elif escolha == 2 and pc == 'Pedra':
     print('O computador também escolheu PEDRA por isso não há um vencedor')
 
 elif escolha == 2 and pc == 'Tesoura':
-    print('O computador escolheu Tesoura e você VENCEU')
+    print('O computador escolheu TESOURA e você VENCEU')
 
 elif escolha == 3 and pc == 'Papel':
     print('O computador escolheu PAPEL e você VENCEU')
