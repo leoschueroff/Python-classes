@@ -15,4 +15,4 @@ for i in range (1,8):
 
 
 print(''' Maiores de idade: {} 
-  Menores de idade: {} '''.format(maior,menor))
+  Menores de idade: {} '''.format(maior, menor))
