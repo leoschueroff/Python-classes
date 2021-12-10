@@ -12,7 +12,5 @@ for i in range (1,8):
         maior += 1
     else:
         menor += 1
-
-
 print(''' Maiores de idade: {} 
   Menores de idade: {} '''.format(maior, menor))
