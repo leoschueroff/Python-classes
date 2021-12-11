@@ -1,10 +1,7 @@
 r = ''
-while r != 'M' or 'F':
-    r = str(input('Qual é o seu sexo? [M/F] : ' )).upper()
-    if r in 'Mm':
-        r = 'Homem'
-        print('Você é {}'.format(r))
-    elif r in 'Ff':
-        r = 'Mulher'
-        print('Você é {}'.format(r))
-
+while r != 'M' and r != 'F':
+    r = str(input('Qual é o seu sexo? [M/F] : ' )).strip().upper()
+if r == 'M':
+    print('Sexo masculino registrado')
+else:
+    print('Sexo feminino registrado')
